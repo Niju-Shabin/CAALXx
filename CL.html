@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALXx</title>
+    <link rel="stylesheet" href="CL.CSS">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        var nums, just, num2;
+        var equal, plu, mul, min, div, ps, sp, x, y, a, z;
+        $(document).ready(function() {
+
+            function own() {
+                if(sp ==  1){
+                    if(just == 1){
+                        $('#scrn2').val(eval(nums))
+                };
+                };
+                };
+
+            $('#plu').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#pon').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#per').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#div').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#x').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#min').on('click', function() {
+                if(z == 1 , equal = 2){
+                if(ps = 1){
+                    sp = 1;
+                $('#scrn').val(nums + '+');  
+                plu = 1;
+                ps = 0;
+                z = 2;
+                };
+                };
+                });
+            $('#equal').on('click', function() {
+                num2 = ($('#scrn2').val()); 
+                $('#scrn2').val(nums);   
+                $('#scrn').val(num2);
+                nums = ($('#scrn').val());
+                equal = 2 ; 
+                });
+             $('#del').on('click', function() {
+                $('#scrn').val((nums, text) => text.slice(0,-1));  
+                nums = ($('#scrn').val()); 
+                own()
+                });
+            $('#1').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '1');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#2').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '2');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#3').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '3');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#4').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '4');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#5').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '5');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#6').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '6');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#7').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '7');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#8').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '8');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#9').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '9');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#0').on('click', function() {
+                nums = ($('#scrn').val());
+                $('#scrn').val(nums + '0');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; a = 2 ; z = 1 ;
+                own();
+                });
+            $('#dot').on('click', function() {
+                if(a == 2){
+                    nums = ($('#scrn').val());
+                $('#scrn').val(nums + '.');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ;  z = 1 ;
+                own();
+                    a = 1;
+                }else{
+                    nums = ($('#scrn').val());
+                $('#scrn').val(nums + '0.');
+                nums = ($('#scrn').val());
+                console.log(nums);
+                just = 1 ; z = 1 ;
+                own();
+                };
+                });
+            });
+    </script>
+</head>
+<body>
+    <div class="home">
+        <div class="calhome">
+            <div class="up">
+                <input type="text" id="scrn2" class="scrn" >
+                <input type="text" id="scrn" class="scrn" >
+            </div>
+            <div class="down">
+                <div class="row">
+                    <div class="ball r1" id="del">C</div>
+                    <div class="ball r1" id="pon">/</div>
+                    <div class="ball r1" id="per">%</div>
+                    <div class="ball ps" id="div">÷</div>
+                </div>
+                <div class="row">
+                    <div class="ball" id="1">1</div>
+                    <div class="ball" id="2">2</div>
+                    <div class="ball" id="3">3</div>
+                    <div class="ball ps" id="x">X</div>
+                </div>
+                <div class="row">
+                    <div class="ball" id="4">4</div>
+                    <div class="ball" id="5">5</div>
+                    <div class="ball" id="6">6</div>
+                    <div class="ball ps" id="min" >-</div>
+                </div>
+                <div class="row">
+                    <div class="ball" id="7">7</div>
+                    <div class="ball" id="8">8</div>
+                    <div class="ball" id="9">9</div>
+                    <div class="ball ps" id="plu">+</div>
+                </div>
+                <div class="row">
+                    <div class="ball o" id="0">0</div>
+                    <div class="ball" id="dot">.</div>
+                    <div class="ball ps" id="equal">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
